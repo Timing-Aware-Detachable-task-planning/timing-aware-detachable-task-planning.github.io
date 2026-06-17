@@ -749,5 +749,52 @@ a:focus {
   }
 }
 
+.result-video-container {
+  max-width: 95vw;
+}
 
+.result-video-column {
+  width: 95%;
+  max-width: 1800px;
+}
 
+.result-video-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.result-video-wrapper video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.result-video-two-column {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.result-video-box {
+  flex: 1;
+}
+
+.result-video-box video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--border-radius);
+}
+
+@media screen and (max-width: 768px) {
+  .result-video-two-column {
+    flex-direction: column;
+  }
+}
+
+.tad-letter {
+  font-weight: 900;
+  color: rgb(137, 72, 96);
+}
